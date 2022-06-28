@@ -1,0 +1,56 @@
+body {
+  background-color: #282c34;
+}
+.title {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.options-bar {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 50px;
+  background-color: white;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.input-text {
+  width: 50%;
+  height: 50%;
+  border-style: solid;
+  border-radius: 15px;
+  margin: auto;
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+button {
+  width: 20%;
+  height: 60%;
+  margin: auto;
+  border-style: solid;
+  border-radius: 15px;
+  font-weight: bold;
+  border: none;
+}
+
+.add-task-btn {
+  background-color: rgb(77, 138, 77);
+}
+
+.add-task-btn:hover {
+  background-color: rgb(145, 193, 145);
+}
+
+.remove-task-btn {
+  background-color: rgb(202, 57, 57);
+}
+
+.remove-task-btn:hover {
+  background-color: rgb(209, 114, 114);
+}
